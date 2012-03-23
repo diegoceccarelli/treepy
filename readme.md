@@ -34,7 +34,7 @@ Third line will be:
 Same for the fourth level/line, you have to specify the parent for each description, considering the node that you 
 created in the previous level: the previous level contains four nodes and only the second has child, then:
 
-	line 4: @ $;4| na$;2 @ @ a;b
+	line 4: @ $;4| na$;2 @ @ 
 
 ## Producing the latex ##
 
@@ -76,7 +76,7 @@ As you can see the preamble of tikzpicture allows you to personalize your tree
 (e.g., changing the distance between siblings and levels). Please refer to the tikz 
 manual for more informations. 
 
-[Diego Ceccarelli](http://www.di.unipi.it/~ceccarel) (R) 2012
+[Diego Ceccarelli](http://www.di.unipi.it/~ceccarel) 2012
 
 
 	
