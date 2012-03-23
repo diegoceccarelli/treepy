@@ -1,0 +1,49 @@
+
+\documentclass{report}
+\usepackage{tikz}
+\begin{document}
+\scalebox{0.6}{
+\begin{tikzpicture}[
+grow=down,
+level 1/.style={sibling distance=5cm,level distance=4cm},
+level 2/.style={sibling distance=3cm, level distance=2cm},
+level 3/.style={sibling distance=2cm, level distance=2.5cm},
+kant/.style={text width=2cm, text centered, sloped},
+every node/.style={text ragged, inner sep=2mm},
+punkt/.style={circle, shade, top color=white,
+bottom color=white, draw=black, very
+thick }
+]
+\node[punkt] {v}
+	child {node[punkt] {u}
+	child {node[punkt] {6}
+edge from parent
+ node[kant,above,pos=.4]{\texttt{\$}}}
+	child {node[punkt] {v}
+	child {node[punkt] {4}
+edge from parent
+ node[kant,above,pos=.4]{\texttt{\$}}}
+	child {node[punkt] {2}
+edge from parent
+ node[kant,above,pos=.4]{\texttt{na\$}}}
+edge from parent
+ node[kant,above,pos=.4]{\texttt{na}}}
+edge from parent
+ node[kant,above,pos=.4]{\texttt{a}}}
+	child {node[punkt] {1}
+edge from parent
+ node[kant,above,pos=.4]{\texttt{banana\$}}}
+	child {node[punkt] {7}
+edge from parent
+ node[kant,above,pos=.4]{\texttt{\$}}}
+	child {node[punkt] {z}
+	child {node[punkt] {5}
+edge from parent
+ node[kant,above,pos=.4]{\texttt{ \$}}}
+	child {node[punkt] {3}
+edge from parent
+ node[kant,above,pos=.4]{\texttt{na\$}}}
+edge from parent
+ node[kant,above,pos=.4]{\texttt{na}}};\end{tikzpicture}
+}
+ \end{document}
