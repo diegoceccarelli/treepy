@@ -6,5 +6,5 @@ pretty latex figure.
 Let's say you want to draw this tree:
 
 
-![Banana tree](/examples/banana.png)
+![Banana tree](examples/banana.png)
 
